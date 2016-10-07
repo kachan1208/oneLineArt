@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "Terminus";
+	src: url('../fonts/Terminus.ttf');
+}
+
+@font-face {
+	font-family: "Zekton";
+	src: url('../fonts/Zekton.ttf');
+}
+
+
+html {
+	font-family: 'Terminus'; 	
+}
+
+.block {
+	border: 2px solid black;
+	margin: 15px;
+	padding: 15px;
+}
+
+.search {
+	border: 2px solid black;
+	height: 34px;
+	position: relative;
+}
+
+.searchInput {
+	height: 32px;
+	width: 96%;
+	border: none;
+	padding: 0 35px 0 10px;
+}
+
+.searchBtn {
+	width: 32px;
+	height: 32px;
+	background: transparent url('../images/search2.png') no-repeat center center;
+	background-color: none;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.content {
+
+}
+
+.title {
+	font-size: 78px;
+	min-height: 500px;
+	padding: 5px;
+	text-align: center;
+}
+
+.description {
+	display: inline-block;
+	width: 40%;
+}
+
+.footer {
+	text-align: center;
+}
+
+.copyright {
+	font-size: 20px;
+}
+
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+
+a:visited {
+	color: purple;
+}
+
+.pager {
+	font-size: 20px;
+	text-align: center;
+}
+
+.item-text {
+	font-family: none;
+	font-size: 14px;
+}
+
+.item-tags {
+	padding-left: 15px;
+}
+
+.item-title {
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+}
+
+.item label {
+	font-weight: bold;
+}
+
+.item span {
+	font-weight: normal;
+}
+
+.delimiter {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 2px;
+	background: gray;
+	overflow: hidden;
+}
+
+.column {
+	display: inline-block;
+	height: 80px;
+	width: 43%;
+}
+
+.art {
+	width: 1500px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/*placeholder font, size*/
+::-webkit-input-placeholder {
+	font-family: 'Terminus';
+	font-size: 24px;
+}
+
+::-moz-placeholder {
+	font-family: 'Terminus'; 
+	font-size: 24px;
+} 
+
+:-ms-input-placeholder {
+	font-family: 'Terminus'; 
+	font-size: 24px;
+}
+
+input:-moz-placeholder {
+	font-family: 'Terminus'; 
+	font-size: 24px;
+}
+/*placeholder font, size*/
+
+input {
+	font-family: 'Terminus';
+	font-size: 24px;
+}
+
+.filter span {
+	font-weight: bold;
+}
+
+.filter .clearButton {
+	float: right;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
